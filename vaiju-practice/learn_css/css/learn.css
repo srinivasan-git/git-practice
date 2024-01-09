@@ -1,0 +1,37 @@
+/* element selector
+body {
+	font-size: 24;
+}
+/* button,input,textarea{
+    font: inherit;
+} */
+/* p {
+	color: blue;
+}  */
+*/
+/* class selector
+.gray {
+	color: gray;
+	font-style: italic;
+} */
+/* id selector
+ #Second {
+	color: aqua;
+} */
+/* group selector
+h1,h2 {
+	color: green;
+} */
+/* p span {
+	background-color: black;
+} */
+/* .highlight {
+	background-color: red;
+} */
+
+body {
+	font-size: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: whitesmoke;
+	color: aliceblue;
+}

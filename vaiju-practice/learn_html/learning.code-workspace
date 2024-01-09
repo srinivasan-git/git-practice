@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../Melyork/sts-workspace/learning"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "automatic",
+		"liveServer.settings.multiRootWorkspaceName": "vaiju-practice"
+	}
+}

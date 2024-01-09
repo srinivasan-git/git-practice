@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="vaiju.css" />
+
+		<script src="./vaijuscript.js"></script>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Melyork Document</title>
+		<link rel="icon" type="image/png" href="./html-tag-icon.png" />
+	</head>
+
+	<style>
+		body {
+			background-color: lightblue;
+		}
+		h1 {
+			color: blueviolet;
+		}
+	</style>
+
+	<body>
+		<h1>Melyork</h1>
+		<h1>Melyork1</h1>
+		<head>
+			<hr />
+			<nav>
+				<ul>
+					<li><a href="#TEXT">TEXT</a></li>
+					<li><a href="#IMAGE">IMAGE</a></li>
+					<li><a href="#Contact me">Contact me</a></li>
+				</ul>
+			</nav>
+			<hr />
+		</head>
+		<hr />
+		<main>
+			<img
+				width="380"
+				height="280"
+				src="./images/water.png"
+				alt="water pic"
+				title="water"
+			/>
+
+			<img
+				width="300"
+				height="500"
+				src="images/chain.png"
+				alt="chain pic"
+				title="chain design"
+				loading="lazy"
+			/>
+			<figure>
+				<img
+					width="300"
+					height="500"
+					src="images/fruit.png"
+					alt="fruit pic"
+					title=" fruit img"
+					loading="lazy"
+				/>
+				<figcaption>fruit image</figcaption>
+			</figure>
+
+			<hr />
+			<p><em>multi-purpose</em> <strong> template </strong></p>
+			<br />
+			<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Open world</h2>
+			<p>
+				<a href="about me.html"> About me</a>
+			</p>
+			<p>Place which fullfill your dream</p>
+			<figure>
+				<figcaption>example of html code:</figcaption>
+				<code>&lt;h1&gt; Hello World!&lt;h1&gt;</code>
+			</figure>
+
+			<h3>Unique place</h3>
+			<ol>
+				<li>
+					<a href="https://www.youtube.com/channel/UCFtrZ0hAM5IOZ8k_R8WAefA">
+						youtube channel
+					</a>
+				</li>
+				<li>space</li>
+				<li>min</li>
+				<li>max</li>
+			</ol>
+			<ul>
+				<li>Time</li>
+				<li>space</li>
+				<li>min</li>
+				<li>max</li>
+			</ul>
+
+			<dl>
+				<dt>Time</dt>
+				<dd>it is not time consuming</dd>
+				<dt>space</dt>
+				<dd>it need less space</dd>
+			</dl>
+
+			<p>
+				Find your right path
+				<abbr title="Mozilla developer network"
+					>MDN<a href="https://developer.mozilla.org/en-US/"></a
+				></abbr>
+				&COPY;
+			</p>
+
+			<!--address barasira yanthuru aavathunthu nodaka-->
+			<address>Bangalore</address>
+
+			<hr />
+			<!--about section and navigation and internal links-->
+			<article>
+				<section id="TEXT">
+					<h2>TEXT</h2>
+					<p>Text is somenthing which can be seen read and understood</p>
+				</section>
+				<hr />
+				<section id="IMAGE">
+					<h2>Image</h2>
+					<p>images can also give us deep insight about the topic</p>
+				</section>
+			</article>
+			<hr />
+			<article id="Contact me">
+				<section>
+					<h2>Contact me</h2>
+					<p>I would like to know your information</p>
+					<form action="https://httpbin.org/get" method="get">
+						<fieldset>
+							<legend>Personal info</legend>
+							<p>
+								<label for="firstName">First Name:</label>
+								<input
+									type="text"
+									name="First Name"
+									id="firstName"
+									placeholder="vaiju"
+									autocomplete="on"
+									required
+								/>
+							</p>
+							<p>
+								<label for="lastName"> Last Name:</label>
+								<input
+									type="text"
+									name="Last name"
+									id="lastName"
+									placeholder="sri"
+									autocomplete="on"
+									required
+								/>
+							</p>
+							<p>
+								<label for="password">password:</label>
+								<input
+									type="password"
+									name="password"
+									id="password"
+									placeholder="your password"
+									required
+								/>
+							</p>
+							<p>
+								<label for="phone">phone no:</label>
+								<input
+									type="tel"
+									name="phone no"
+									id="phone"
+									placeholder="9999999999"
+									autocomplete="on"
+									required
+									pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+								/>
+							</p>
+							<p>
+								<label for="decade">Fav decade:</label>
+								<input
+									type="number"
+									name="fav decade"
+									id="decade"
+									min="1950"
+									max="2050"
+									step="10"
+									value="2000"
+									required
+								/>
+							</p>
+							<p>
+								<label for="content">fav content from vaiju:</label>
+
+								<select name="content" id="content">
+									<optgroup label="earn money">
+										<option value="frontend">frontend</option>
+										<option value="backend">backend</option>
+										<option value="AI">AI</option>
+										<option value="blockchain">blockchain</option>
+									</optgroup>
+									<optgroup label="Finance">
+										<option value="sharemarket">sharemarket</option>
+										<option value="trading">trading</option>
+									</optgroup>
+									<optgroup label="begging">
+										<option value="donation">donation</option>
+									</optgroup>
+								</select>
+							</p>
+							<!-- <p>
+								<label for="anothercontent">fav content from vaiju:</label>
+									<input type="text" name="content" id="anothercontent" list="content-list">
+									<datalist id="content-list">
+											<option value="frontend">
+											<option value="backend">
+											<option value="AI" selected>
+											<option value="blockchain">
+											<option value="sharemarket">
+											<option value="trading">
+											<option value="donation">
+								
+					
+											</p> -->
+						</fieldset>
+						<br /><br /><br /><br /><br />
+						<fieldset>
+							<legend>your fav pet</legend>
+							<p>
+								<input type="checkbox" name="dog" id="dog" value="dog" />
+								<label for="dog">dog</label>
+							</p>
+							<p>
+								<input type="checkbox" name="cat" id="cat" value="cat" />
+								<label for="cat">cat</label>
+							</p>
+							<p>
+								<input
+									type="checkbox"
+									name="otherpets"
+									id="otherpets"
+									value="otherpets"
+								/>
+								<label for="otherpets">otherpets</label>
+							</p>
+						</fieldset>
+						<br /><br /><br /><br /><br />
+						<fieldset>
+							<legend>your fav food</legend>
+							<p>
+								<input
+									type="radio"
+									name="chicken"
+									id="chicken"
+									value="chicken"
+								/>
+								<label for="chicken">chicken</label>
+							</p>
+							<p>
+								<input type="radio" name="mutton" id="mutton" value="mutton" />
+								<label for="mutton">mutton</label>
+							</p>
+							<p>
+								<input type="radio" name="others" id="others" value="others" />
+								<label for="others">others</label>
+							</p>
+						</fieldset>
+						<br />
+						<fieldset>
+							<legend>Send your message</legend>
+							<label for="message">your message</label>
+							<p>
+								<textarea
+									name="message"
+									id="message"
+									cols="30"
+									rows="10"
+									placeholder="type your message"
+								></textarea>
+							</p>
+						</fieldset>
+						<button type="submit">Submit</button>
+						<button
+							type="submit"
+							formaction="https://httpbin.org/post"
+							formmethod="post"
+						>
+							post
+						</button>
+						<button type="Reset">Reset</button>
+						<br /><br /><br /><br /><br />
+					</form>
+				</section>
+			</article>
+			<hr />
+
+			<aside>
+				<details>
+					<summary>
+						guess the <mark> number of hours</mark> i code per day
+					</summary>
+					<p>
+						i start at <time datetime="08:00"> 8 am</time> and i write code
+						for<time datetime="03:00"> 3 hours</time> every day morning
+					</p>
+				</details>
+			</aside>
+			<br />
+			<table>
+				<caption>
+					My activity table
+				</caption>
+				<thead>
+					<tr>
+						<th>&nbsp;</th>
+						<th scope="col">TIME</th>
+						<th scope="col">ACTIVITY</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">Morning</th>
+						<td>
+							<time datetime="08:00"> 8am</time>-<time datetime="11:00"
+								>11am</time
+							>
+						</td>
+						<td>write code</td>
+					</tr>
+
+					<tr>
+						<th scope="row">Break</th>
+						<td>
+							<time datetime="11:00"> 11am</time>-<time datetime="12:00"
+								>12pm</time
+							>
+						</td>
+						<td>Lunch break</td>
+					</tr>
+					<tr>
+						<th scope="row">Afternoon</th>
+						<td>
+							<time datetime="12:00"> 12pm</time>-<time datetime="18:00"
+								>6pm</time
+							>
+						</td>
+						<td>Study time</td>
+					</tr>
+					<tr>
+						<th scope="row">Evening</th>
+						<td rowspan="2">All other time</td>
+						<td>free time</td>
+					</tr>
+					<tr>
+						<th>Night</th>
+						<td>sleep</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="3">Eat, sleep and code everyday</td>
+					</tr>
+				</tfoot>
+			</table>
+		</main>
+
+		<!-- back to top-->
+		<footer>
+			<p><a href="#">Back to top</a></p>
+		</footer>
+		<!--adding images-->
+	</body>
+</html>
