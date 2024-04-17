@@ -1,0 +1,85 @@
+html {
+	scroll-behavior: smooth;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+}
+h1 {
+	text-align: center;
+	background-color: rgba(54, 49, 49, 0.799);
+	padding: 20px;
+}
+nav {
+	display: block;
+}
+nav > ul {
+	padding: 0.5rem;
+	display: flex;
+	justify-content: space-evenly;
+	list-style-type: none;
+}
+
+h2,
+p {
+	padding: 5px;
+	text-align: center;
+}
+
+.container {
+	padding: 1rem;
+	background-color: rgba(128, 128, 128, 0.764);
+	background-image: radial-gradient(white, rgba(128, 128, 128, 0.764));
+	display: grid;
+	grid-auto-columns: 32%;
+	grid-auto-flow: column;
+	grid-gap: 20px;
+	justify-content: space-evenly;
+}
+
+.hero {
+	padding: 20px;
+	height: 100%;
+	width: 100%;
+	border: 2px solid;
+	background-color: rgba(11, 138, 152, 0.284);
+	border-radius: 10px;
+	place-content: center;
+}
+
+.profile-pic img {
+	width: 100%;
+	border: 5px double rgba(5, 55, 61, 0.284);
+	border-radius: 50%;
+	display: grid;
+	place-content: center;
+}
+
+@media screen and (max-width: 600px) {
+	.container {
+		grid-auto-columns: 100%;
+		grid-auto-flow: row;
+	}
+}
+
+.label {
+	display: block;
+}
+.label-child {
+	float: left;
+}
+
+footer {
+	display: block;
+}
+footer {
+	position: sticky;
+	background-color: black;
+	color: aliceblue;
+	bottom: 0;
+}

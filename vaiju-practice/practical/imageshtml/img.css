@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*
+img {
+	display: block;
+}
+.nowrap {
+	white-space: nowrap;
+}
+body {
+	min-height: 100vh;
+	background-color: aliceblue;
+	background-image: url("./img/heart.png");
+	background-image: linear-gradient(steelblue, pink, white);
+}
+.offscreen {
+	position: absolute;
+	left: -100000px;
+}
+.container {
+	background-color: rgba(11, 138, 152, 0.284);
+	background-image: url("./img/scenic5.jpeg");
+	background-size: cover;
+	background-position: bottom;
+	/*background-repeat: no-repeats;
+	background-repeat: repeat-y;
+	background-repeat: repeat-x;
+}
+	 */
+
+/* .hero {
+	border-bottom: 2px solid black;
+	padding: 20px;
+	color: aliceblue;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 30px;
+	background-color: rgba(0, 0, 0, 0.232);
+}
+.h1 {
+	font-size: 300%;
+	color: aliceblue;
+	text-shadow: 2px 2px 5px black;
+}
+.profile-pic {
+	width: 35%;
+}
+
+.profile-pic img {
+	width: 100%;
+	height: auto;
+	border: 5px double rgba(22, 49, 103, 0.284);
+	border-radius: 50%;
+} */
+
+/* .example {
+	margin-top: 1rem;
+	padding-left: 20px;
+	border: 2px solid red;
+}
+
+.example img {
+	width: 25%;
+	height: auto;
+} */
+
+.clip {
+	font-weight: 800;
+	font-size: 10rem;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.249);
+	background-image: url(./img/scenicimg2.jpeg);
+	background-size: 100%;
+	-webkit-background-clip: text;
+}

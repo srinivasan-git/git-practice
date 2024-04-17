@@ -1,0 +1,40 @@
+h1 {
+	margin: 2em;
+	padding: 2em;
+	text-indent: 25%;
+	font-size: 2rem;
+	text-align: justify;
+	font-weight: 600;
+	font-style: oblique;
+	background-color: beige;
+	border: 3px double red;
+	outline: 5px solid purple;
+	outline-offset: 5px;
+	width: 50%;
+}
+ul {
+	margin: 2em;
+	padding: 2em;
+	border: 3px double red;
+	border-radius: 50%;
+	text-align: initial;
+	text-indent: 25%;
+	cursor: pointer;
+	outline: 5px solid purple;
+	font-size: 2rem;
+	font-style: oblique;
+	background-color: beige;
+	outline-offset: 5px;
+	list-style-position: inside;
+	::marker {
+		color: maroon;
+	}
+}
+
+a {
+	color: rgb(0, 0, 255);
+}
+a:hover,
+a:focus {
+	color: rgba(0, 0, 255, 0.5);
+}

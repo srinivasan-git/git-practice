@@ -1,0 +1,18 @@
+body {
+	background-color: #673ab7;
+}
+
+.container {
+	color: whitesmoke;
+	border: 1px solid white;
+}
+.p50 {
+	padding: 50px;
+}
+.color-1 {
+	background-color: #d3bbff;
+	color: black;
+}
+.height-500 {
+	height: 500px;
+}
